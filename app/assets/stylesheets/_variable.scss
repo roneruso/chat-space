@@ -69,4 +69,36 @@ body{
       }
     }
   }
+  .chat-main{
+    height: 100vh;
+    width: calc( 100vw - 300px );
+    float: left;
+    .chat-main__header{
+      height: 15%;
+      border: 1px solid #eeeeee;
+      .chat-main__header--group{
+        margin: 0 40px;
+        padding-top: 25px;
+        .chat-main__header--group-name{
+          color: #333;
+          font-size: 20px;
+          margin: 5px;
+          float: left;
+        }
+        .chat-main__header--group-edit-btn{
+          color: #38AEF0;
+          font-size: 15px;
+          padding: 12.5px 20px;
+          margin: 10px 20px 0;
+          border: 1px solid #38AEF0;
+          float: right;
+        }
+      }
+      .chat-main__header-members{
+        color: #999999;
+        font-size: 12px;
+        margin: 40px 45px;
+      }
+    }
+  }
 }
