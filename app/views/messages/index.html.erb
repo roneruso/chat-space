@@ -88,4 +88,19 @@
       </div>
     </div>
   </div>
+
+  <div class="chat-main__footer">
+    <form class="chat-main__footer-form" id="new_message" enctype="multipart/form-data" action="/groups/2201/messages" accept-charset="UTF-8" method="post">
+      <input name="utf8" type="hidden" value="✓">
+      <input type="hidden" name="authenticity_token" value="vXir1zLSjFVjIBRtDu43vjpEv+qdH7wJ0CKPVZ7CKp3n7UWtGrv6ylPyLvdmjSmAPqJyh2znvnwrjvDRs4/UvQ==">
+      <div class="chat-main__footer-body">
+
+        <input placeholder="type a message" class="message" type="text" name="message[body]" id="message_body" />
+        <label class="chat-file" for="message_image"><input class="image" type="file" name="message[image]" id="message_image" />
+          <i class='fa fa-image'></i>
+        </label>
+      </div>
+      <input type="submit" name="commit" value="Send" class="submit" data-disable-with="Send" />
+    </form>
+  </div>
 </div>

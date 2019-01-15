@@ -128,5 +128,52 @@ body{
         }
       }
     }
+    .chat-main__footer{
+     padding-bottom: 30px;
+      height: 90px;
+      width: 100%;
+      background-color: #B8C3C7;
+      .chat-main__footer-form{
+        margin: 0 40px;
+        position: relative;
+        .chat-main__footer-body{
+          position: relative;
+          .message{
+            height: 50px;
+            width: calc( 100% - 130px );
+            padding: 15px 10px;
+            margin: 20px 0;
+            border: none;
+          }
+          .chat-file{
+            height: 50px;
+            width: 40px;
+            margin: 32px 130px 20px 0;
+            position: absolute;
+            top: 0;
+            right: 0;
+            .image{
+              position: absolute;
+              top: 15px;
+              left: 15px;
+              display: none;
+            }
+            .fa{font-size:-webkit-xxx-large;}
+          }
+        }
+        .submit {
+          color: #fff;
+          width: 100px;
+          height: 50px;
+          text-align: center;
+          background-color: #38AEF0;
+          margin: 35px 0;
+          position: absolute;
+          top: 0;
+          right: 0;
+          border: none;
+        }
+      }
+    }
   }
 }
