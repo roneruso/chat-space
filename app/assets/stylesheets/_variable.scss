@@ -7,4 +7,46 @@ body{
     text-align: center;
   }
 
+  .chat-side{
+    background-color: #253141;
+    height:100vh;
+    width:300px;
+    float:left;
+    .chat-side__user{
+      height: 15%;
+      width: 100%;
+      background-color: #090c10;
+      position: relative;
+      .chat-side__user-content{
+        height: 50px;
+        width: 100%;
+        line-height: 50px;
+        margin: auto 0;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        .chat-side__user-name{
+          color: #FFFFFF;
+          font-size: 16px;
+          font-weight: bold;
+          margin: 0 20px;
+          position: relative;
+          display: inline-block;
+        }
+        .chat-side__user--new-group{
+          color: #FFFFFF;
+          font-size:15px;
+          margin-left: 90px;
+          position: relative;
+          display: inline-block;
+        }
+        .chat-side__user--edit-user{
+          color: #FFFFFF;
+          font-size:11px;
+          position: relative;
+          display: inline-block;
+        }
+      }
+    }
+  }
 }
